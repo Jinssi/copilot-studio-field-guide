@@ -32,6 +32,8 @@ git diff --no-index -- .github/agents/studio-reviewer.agent.md incoming/studio-r
 
 Expect one added instruction and **no new tools**. Read the diff **before** copying the candidate over `.github/agents/studio-reviewer.agent.md` and its receipt over `.github/agent-sources/studio-reviewer.source.json` in Explorer. Open a **new chat** in the annex; select **Studio Reviewer** and attach the desk policy and topic. Request a review with no runtime transcript. Expect a closing line marking runtime evidence **not run**. If the model misses it, record that and refine the profile rather than calling the pilot successful.
 
+<Shot file="catalog-revision.png" alt="The actual GitHub diff from catalog-v1 to catalog-v2 adds the runtime evidence instruction to agents/studio-reviewer.agent.md." caption="The published reference catalog really has this change. The green line changes the reviewer's output, not its tool permissions." />
+
 ```sh
 npm run check -- profiles
 git add -- .github/agents/studio-reviewer.agent.md .github/agent-sources/studio-reviewer.source.json

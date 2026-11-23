@@ -7,7 +7,7 @@ OUT = ROOT / "docs" / "public" / "downloads" / "lantern-workbench.zip"
 
 # An allowlist keeps local notes, installed dependencies and tenant files out of the public kit.
 starter_files = [
-    ".gitignore", "README.md", "desk-policy.md", "evidence.md", "test-cards.md",
+    ".gitattributes", ".gitignore", "README.md", "desk-policy.md", "evidence.md", "test-cards.md",
     "practice/topics/DeskPickup.mcs.yml", "tools/check.mjs", "tools/stage-reviewer.mjs",
     "package.json", "package-lock.json",
 ]

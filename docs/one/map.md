@@ -18,6 +18,8 @@
 
 4. Verify the answer yourself. A useful answer names `main`, `sendPickup`, **North Counter** from the topic and **Map Room** from the card. If it says it tested the conversation, ask what runtime it used. Reading a YAML file is not running a conversation.
 
+<Shot file="desk-topic.png" alt="The actual Lantern Desk starter YAML on GitHub, with the three trigger phrases and a SendActivity message directing visitors to the North Counter." caption="From this course's repository: the phrases on lines 7–9 choose the topic; the message on line 13 is the part that sends people to the wrong desk." />
+
 ## Sort the three desks
 
 | If you want to change… | Work here | A successful result looks like… |

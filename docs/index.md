@@ -38,9 +38,9 @@ features:
 
 **GitHub Copilot** helps the maker change files. **Copilot Studio** runs the agent that tells a visitor where to pick up a projector. A commit changes a repository; it does not change what the visitor hears. By the end, you will have tested that distinction rather than just memorized it.
 
-**Nine core labs · three optional side labs · about three hours plus setup.** Each level ends with something you can show: a diff, a set of test results, or a reversible handoff. Stars are self-assessed levels, not badges or certifications.
+**Nine core labs · four optional side labs · about three hours plus setup.** Each level ends with something you can show: a diff, a set of test results, or a reversible handoff. Stars are self-assessed levels, not badges or certifications.
 
-No Studio environment? Start with the [local rehearsal](./start#choose-a-lane). Already manage agents? Jump to the [catalog lab](./three/catalog) or take a [side lab](./side-labs/).
+No Studio environment? Start with the [local rehearsal](./start#choose-a-lane). No existing agent to clone? [Build a new Studio draft from local files](./side-labs/new-agent). Already manage agents? Jump to the [catalog lab](./three/catalog).
 
 Independent course by [Jinssi](https://github.com/Jinssi), inspired by [Microsoft’s Agent Academy](https://microsoft.github.io/agent-academy/). [Credits and screenshot sources](./credits).
 

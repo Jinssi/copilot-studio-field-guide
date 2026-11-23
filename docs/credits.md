@@ -6,6 +6,10 @@
 
 These are real product captures, not generated mockups. The upstream examples show different agents or repositories; captions say what to look for rather than pretending the examples are Lantern Desk test runs. Each figure opens the full-size PNG. Files are reproduced unchanged; displayed size is responsive.
 
+**Captured for this course:** the [actual starter topic](https://github.com/Jinssi/copilot-studio-field-guide/blob/eba611a09e02c01586a665c59a06719403f5dad3/lab-kit/starter/practice/topics/DeskPickup.mcs.yml), the [project-local reviewer](https://github.com/Jinssi/copilot-studio-field-guide/blob/eba611a09e02c01586a665c59a06719403f5dad3/.github/agents/studio-reviewer.agent.md), and the [catalog revision diff](https://github.com/Jinssi/copilot-studio-field-guide/commit/9174a80a6a7090b3d4e799d93ba29f8cf149cb14) were captured directly from this public repository on GitHub.com. Their source files are part of Jinssi's MIT-licensed course. The GitHub interface is shown for instruction; its marks remain GitHub's.
+
+**Upstream product captures:**
+
 | Figure | Original creator and pinned source | License |
 | --- | --- | --- |
 | Studio clone picker | Microsoft · [Copilot Studio extension, select-agent-from-clipboard.png](https://github.com/microsoft/vscode-copilotstudio/blob/f645c08d443f25630ac74a54da78d0390e1ce19f/images/select-agent-from-clipboard.png) | [Microsoft MIT notice](/shots/studio-extension-LICENSE.txt) |

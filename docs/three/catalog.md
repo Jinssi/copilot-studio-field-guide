@@ -45,6 +45,18 @@
    git commit -m "Pin the desk reviewer to catalog revision one"
    ```
 
+## Compare with a working public catalog
+
+This course ships a separate [example catalog branch](https://github.com/Jinssi/copilot-studio-field-guide/tree/catalog-example) with the exact root `agents/` layout. To inspect it without changing the catalog you just built, run these commands from the workbench into a **different**, unused sibling directory:
+
+```sh
+git clone --branch catalog-example --single-branch https://github.com/Jinssi/copilot-studio-field-guide.git ../desk-catalog-reference
+git -C ../desk-catalog-reference log --oneline -2
+git -C ../desk-catalog-reference diff catalog-v1 catalog-v2 -- agents/studio-reviewer.agent.md
+```
+
+Compare [revision one](https://github.com/Jinssi/copilot-studio-field-guide/blob/3551a2f8df7bfca2089082155d9be57c7ee4c652/agents/studio-reviewer.agent.md) with [revision two](https://github.com/Jinssi/copilot-studio-field-guide/blob/9174a80a6a7090b3d4e799d93ba29f8cf149cb14/agents/studio-reviewer.agent.md). Your own commit hashes will differ; the directory layout and the one-sentence change are what should match. Continue the next lab with **your own** `desk-agent-library`.
+
 ## Optional: use GitHub’s native organization catalog
 
 An **organization owner** may instead use an approved organization-owned `.github-private` repository (private), or `.github` with the intended visibility. Put the profile at `agents/studio-reviewer.agent.md`, **not** `.github/agents/` in that special repository. Submit a PR, review the tools and merge to the default branch. Do not put secrets in profiles, even in a private catalog.

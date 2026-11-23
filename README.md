@@ -4,7 +4,7 @@
 
 The projector desk moved. Use **GitHub Copilot** to correct a **Copilot Studio** topic, build two custom coding agents to write and review the change, then distribute the reviewer to a second project without surprising the first.
 
-An independent, hands-on course by [Jinssi](https://github.com/Jinssi). Nine core labs, three optional side labs, one fictional desk. Each level has a work order, hands-on activities, evidence to keep, and a check you can fail.
+An independent, hands-on course by [Jinssi](https://github.com/Jinssi). Nine core labs, four optional side labs, one fictional desk. Each level has a work order, hands-on activities, evidence to keep, and a check you can fail.
 
 | Level | Labs | Exit evidence |
 | --- | --- | --- |
@@ -18,7 +18,8 @@ The **local lane** uses the supplied synthetic topic. The **connected lane** add
 
 - [Studio Author](.github/agents/studio-author.agent.md) and [Studio Reviewer](.github/agents/studio-reviewer.agent.md) — working project profiles.
 - [Practice topic](lab-kit/starter/practice/topics/DeskPickup.mcs.yml), [desk policy](lab-kit/starter/desk-policy.md), [test cards](lab-kit/starter/test-cards.md), [evidence sheet](lab-kit/starter/evidence.md) and [one finished answer](lab-kit/answers/DeskPickup.mcs.yml).
-- [Side labs](docs/side-labs/index.md) — personal vs. project scope, a conflicting Studio edit, and a GitHub.com issue-to-proposal workflow.
+- [A real, versioned catalog](https://github.com/Jinssi/copilot-studio-field-guide/tree/catalog-example) — clone the small example branch or [inspect the difference between its two releases](https://github.com/Jinssi/copilot-studio-field-guide/compare/catalog-v1...catalog-v2).
+- [Side labs](docs/side-labs/index.md) — building a new Studio draft with GitHub Copilot and the preview CLI, personal vs. project scope, a conflicting Studio edit, and a GitHub.com issue-to-proposal workflow.
 
 ## Maintain or teach the guide
 
@@ -30,6 +31,7 @@ npm --prefix lab-kit/starter ci --ignore-scripts
 npm test
 npm run build
 npm run check:site
+python scripts/rehearse_archive.py
 ```
 
 `npm run dev` starts VitePress. The build packs a fresh allowlisted learner ZIP, then builds the searchable site under `docs/.vitepress/dist/`. The Pages workflow publishes successful builds of `main`. Open a [course issue](https://github.com/Jinssi/copilot-studio-field-guide/issues) for a broken lab; include its number, your lane and a sanitized description.

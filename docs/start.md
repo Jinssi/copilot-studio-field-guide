@@ -31,7 +31,7 @@ The course does not provide a tenant, license, or trial. GitHub Copilot and Stud
 
    ```sh
    git init -b main
-   git add -- .gitignore README.md LICENSE.txt desk-policy.md test-cards.md evidence.md practice references tools package.json package-lock.json
+   git add -- .gitattributes .gitignore README.md LICENSE.txt desk-policy.md test-cards.md evidence.md practice references tools package.json package-lock.json
    git diff --cached --stat
    git commit -m "Start the Lantern Desk rehearsal"
    git switch -c desk/pickup

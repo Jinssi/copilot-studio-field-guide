@@ -10,4 +10,6 @@
 4. Open the resulting proposal or pull request. In **Files changed**, expect one message edit and unchanged trigger IDs. Confirm the agent used the requested profile in the session/PR details. As reviewer, reject unrelated changes; as maker, run the location check against the proposed branch. Do not treat a cloud agent's summary as runtime evidence.
 5. Decide whether to merge the synthetic PR or close it as a rehearsal. The Studio environment has not been touched. If the change belongs in a real agent, the maker still follows the separate [preview, apply and test sequence](../two/test).
 
+<Shot file="course-reviewer.png" alt="The published Studio Reviewer file on GitHub showing the .github/agents breadcrumb and the read and search tools in its frontmatter." caption="This course's companion reviewer on GitHub.com. The path controls repository discovery; the tools line distinguishes it from the author." />
+
 **Checkpoint:** save the training issue, proposed revision and your review decision in the private training repo. If you lack access, write the issue locally and mark the cloud-agent step *not run*. [GitHub's instructions for creating and using custom agents](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/create-custom-agents).

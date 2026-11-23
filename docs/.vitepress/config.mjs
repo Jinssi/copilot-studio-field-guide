@@ -29,7 +29,7 @@ export default defineConfig({
       group('★ ONE · Find the topic', [['Level brief', '/one/'], ['01 · Follow a question', '/one/map'], ['02 · Clone a Studio agent', '/one/clone'], ['03 · Make a one-line fix', '/one/edit']]),
       group('★★ TWO · Build the pair', [['Level brief', '/two/'], ['04 · Create an author', '/two/author'], ['05 · Create a reviewer', '/two/reviewer'], ['06 · Test in Studio', '/two/test']]),
       group('★★★ THREE · Share the reviewer', [['Level brief', '/three/'], ['07 · Build a catalog', '/three/catalog'], ['08 · Roll out a revision', '/three/rollout'], ['09 · Hand off the desk', '/three/handoff']]),
-      group('OFF THE MAIN PATH', [['Pick a side lab', '/side-labs/'], ['Personal or project?', '/side-labs/scope'], ['When the cloud changed first', '/side-labs/drift'], ['Give GitHub an issue', '/side-labs/github'], ['Credits & image sources', '/credits']])
+      group('OFF THE MAIN PATH', [['Pick a side lab', '/side-labs/'], ['Build a new Studio draft', '/side-labs/new-agent'], ['Personal or project?', '/side-labs/scope'], ['When the cloud changed first', '/side-labs/drift'], ['Give GitHub an issue', '/side-labs/github'], ['Credits & image sources', '/credits']])
     ],
     outline: { label: 'In this lab', level: [2, 3] },
     search: { provider: 'local' },
