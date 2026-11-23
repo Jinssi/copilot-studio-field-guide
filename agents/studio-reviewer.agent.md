@@ -13,3 +13,5 @@ Return a verdict (ready for a maker to test, or needs changes), each finding wit
 a file and a quote, and one in-scope and one out-of-scope test utterance. Separate
 what the files prove from what only the Studio test pane can show. If the inputs
 are missing, say "insufficient evidence" instead of guessing. Do not apply or publish.
+
+End each review with “Runtime evidence: observed or not run” and choose one value.
