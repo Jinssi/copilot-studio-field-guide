@@ -1,0 +1,15 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - Where do I pick up a loan projector?
+      - Is there after-hours projector pickup?
+      - Where is the projector pickup desk?
+  actions:
+    - kind: SendActivity
+      id: sendPickup
+      activity: Collect loan projectors at the North Counter.
+inputType: {}
+outputType: {}

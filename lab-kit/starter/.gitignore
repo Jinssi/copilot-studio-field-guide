@@ -1,0 +1,8 @@
+node_modules/
+incoming/
+evidence.private.md
+.env
+.env.*
+.mcs/
+studio-local/
+.DS_Store

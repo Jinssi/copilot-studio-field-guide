@@ -1,0 +1,14 @@
+{
+  "name": "copilot-studio-field-guide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python scripts/package_kit.py && vitepress dev docs",
+    "build": "python scripts/package_kit.py && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "test": "node --test tests/lab.test.mjs",
+    "check:site": "python scripts/check_site.py"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "vitepress": "1.6.4" }
+}

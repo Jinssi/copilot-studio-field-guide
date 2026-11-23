@@ -1,0 +1,10 @@
+{
+  "name": "lantern-desk-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local exercises for the Copilot Studio Field Guide; not a deployable agent.",
+  "engines": { "node": ">=22" },
+  "scripts": { "check": "node tools/check.mjs" },
+  "dependencies": { "yaml": "2.9.1" }
+}

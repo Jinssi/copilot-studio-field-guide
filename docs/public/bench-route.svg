@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="368" viewBox="0 0 480 368" role="img" aria-labelledby="title desc">
+  <title id="title">Lantern Desk work order: edit, review, test</title>
+  <desc id="desc">A field notebook diagram traces a topic file through a reviewer to a human-run Studio test.</desc>
+  <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#e0e4d6"/></pattern></defs>
+  <rect x="23" y="25" width="442" height="325" rx="16" fill="#e0e4d8"/>
+  <rect x="14" y="15" width="442" height="325" rx="16" fill="#f7f4e6" stroke="#214b43" stroke-width="2"/>
+  <path d="M15 77h440v245q0 17-17 17H32q-17 0-17-17z" fill="url(#grid)"/>
+  <g font-family="monospace" fill="#214b43">
+    <text x="37" y="50" font-size="16" font-weight="bold" letter-spacing="2">LANTERN DESK</text>
+    <text x="325" y="50" font-size="13">ORDER / 001</text>
+    <path d="M14 70h442" stroke="#214b43" stroke-width="2"/>
+    <path d="M61 125v151" stroke="#216d5c" stroke-width="3" stroke-dasharray="4 5"/>
+    <g fill="#214b43"><circle cx="61" cy="122" r="17"/><circle cx="61" cy="198" r="17"/><circle cx="61" cy="274" r="17"/></g>
+    <g fill="#fff9e7" font-size="13" text-anchor="middle"><text x="61" y="127">01</text><text x="61" y="203">02</text><text x="61" y="279">03</text></g>
+    <text x="96" y="119" font-size="23" font-family="Georgia,serif" font-weight="bold">Edit one topic</text>
+    <text x="96" y="143" font-size="14">topics/DeskPickup.mcs.yml</text>
+    <text x="96" y="195" font-size="23" font-family="Georgia,serif" font-weight="bold">Ask a second reader</text>
+    <text x="96" y="219" font-size="14">.github/agents/</text>
+    <text x="96" y="271" font-size="23" font-family="Georgia,serif" font-weight="bold">Test the reply</text>
+    <text x="96" y="295" font-size="14">Copilot Studio / Test</text>
+  </g>
+  <path d="m389 262 10 10 18-23" fill="none" stroke="#a75f20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
